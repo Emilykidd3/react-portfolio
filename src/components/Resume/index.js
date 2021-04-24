@@ -11,7 +11,7 @@ function Resume({ tabs }) {
             <li>{skills}</li>
           ))}
         </ul>
-        <a href={ResumeDownload} download="Resume" target='_blank'>
+        <a href={ResumeDownload} download="Resume" target='_blank' rel="noreferrer">
         <button>Download Resume</button>
 </a>
     </div>
