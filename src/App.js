@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Header from "./components/Header";
 import Resume from"./components/Resume";
+import Footer from './components/Footer'
 
 function App() {
   const [tabs] = useState([
@@ -24,6 +25,7 @@ function App() {
         {currentTab.name === "portfolio" && <Portfolio />}
         {currentTab.name === "resume" && <Resume />}
       </main>
+      <Footer />
     </div>
   );
 }
