@@ -3,11 +3,9 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected
+    tabs = [],
+    setCurrentTab,
+    currentTab
   } = props;
 
 
@@ -20,35 +18,26 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          Emily Kidd
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>
-              Contact
-            </span>
-          </li>
-          {categories.map((category) => (
+          {tabs.map((tab) => (
             <li
               className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
+                currentTab.name === tab.name && 'navActive'
                 }`}
-              key={category.name}
+              key={tab.name}
             >
               <span
                 onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
+                  setCurrentTab(tab);
                 }}
               >
-                {capitalizeFirstLetter(category.name)}
+                {capitalizeFirstLetter(tab.name)}
               </span>
             </li>
           ))}
