@@ -35,19 +35,19 @@ function ContactForm() {
     }
 
     return (
-        <section>
+        <section style={{width: "600px"}}>
             <h1 data-testid="h1tag">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={handleSubmit} style={{width: "100%"}}>
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <label htmlFor="name">Name</label><br />
+                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" style={{width: "50%"}} />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <label htmlFor="email">Email address</label><br />
+                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} style={{width: "50%"}} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message</label><br />
                     <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
                 </div>
                 {errorMessage && (

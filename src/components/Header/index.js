@@ -1,9 +1,14 @@
 import React from "react";
-import Nav from '../Nav'
+import Nav from "../Nav";
 
 function Header(props) {
   return (
-    <header>
+    <header className="flex-row px-1" style={{display: "flex", justifyContent: "space-between"}}>
+      <h2>
+        <a data-testid="link" href="/" style={{textDecoration: "none"}}>
+          Emily Kidd
+        </a>
+      </h2>
       <Nav
         tabs={props.tabs}
         setCurrentTab={props.setCurrentTab}
