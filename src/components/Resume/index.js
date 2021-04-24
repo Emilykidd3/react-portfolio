@@ -24,7 +24,8 @@ function Resume({ tabs }) {
   ];
 
   return (
-    <div style={{ display: "flex", justifyContent: "space-around" }}>
+    <div>
+    <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
       <div
         style={{
           display: "flex",
@@ -50,9 +51,9 @@ function Resume({ tabs }) {
       </div>
 
       <div>
-        <h2>Skills</h2>
-        <div style= {{}}>
-          <ul>
+        <h2 style={{paddingLeft: "20%"}}>Skills</h2>
+        <div style= {{display: "flex"}}>
+          <ul style={{marginLeft: "0px", paddingLeft: "0px"}}>
             {skills1.map((skills) => (
               <li>{skills}</li>
             ))}
@@ -65,6 +66,8 @@ function Resume({ tabs }) {
         </div>
       </div>
     </div>
+    </div>
+
   );
 }
 

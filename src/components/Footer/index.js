@@ -16,7 +16,7 @@ function Footer() {
               <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
         </li>
-        <li>
+        <li style={{marginLeft: "15px"}}>
           <a
             href="https://github.com/Emilykidd3"
             target="_blank"
@@ -25,7 +25,7 @@ function Footer() {
             <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
         </li>
-        <li>
+        <li style={{marginLeft: "15px"}}>
           <a
             href="mailto:ekidd61@yahoo.com"
           >
