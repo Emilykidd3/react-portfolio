@@ -13,7 +13,7 @@ A digital portfolio for anyone to see my work, find links to my Github, LinkedIn
 
 ## Website
 
-[Click here](https://emilykidd3.github.io/react-portfolio)
+[Click here](https://emilykidd3.github.io/react-portfolio/)
 
 ## Screenshot
 
