@@ -9,8 +9,8 @@ import Footer from './components/Footer'
 function App() {
   const [tabs] = useState([
     { name: "about me" },
-    { name: "contact" },
     { name: "portfolio" },
+    { name: "contact" },
     { name: "resume" },
   ]);
 
@@ -21,8 +21,8 @@ function App() {
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab} tabs={tabs} />
       <main>
         {currentTab.name === "about me" && <About />}
-        {currentTab.name === "contact" && <ContactForm />}
         {currentTab.name === "portfolio" && <Portfolio />}
+        {currentTab.name === "contact" && <ContactForm />}
         {currentTab.name === "resume" && <Resume />}
       </main>
       <Footer />
