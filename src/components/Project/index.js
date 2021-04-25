@@ -12,7 +12,7 @@ function Project({ title, image, deployedLink, repo }) {
     >
       <h3>{title}</h3>
       <img
-        style={{ width: "300px" }}
+        style={{ maxWidth: "300px", maxHeight: "600px" }}
         src={require(`../../assets/project-images/${image}`).default}
         alt="budget"
       ></img>
