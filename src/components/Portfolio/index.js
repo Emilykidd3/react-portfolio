@@ -13,7 +13,7 @@ function Portfolio() {
     {
       title: "Social Network API",
       image: "social-network-api.png",
-      deployedLink: "https://github.com/Emilykidd3/social-network-api",
+      deployedLink: "https://drive.google.com/file/d/1huw13Gc-CHNqH7qL8DwkO82jiN6pCYJR/view",
       repo: "https://github.com/Emilykidd3/social-network-api"
     },
     {
@@ -31,13 +31,13 @@ function Portfolio() {
     {
       title: "eCommerce Backend",
       image: "ecommerce-backend.png",
-      deployedLink: "https://github.com/Emilykidd3/e-commerce-back-end",
+      deployedLink: "https://drive.google.com/file/d/1TeGkIWAZpmEJm7ad_fHK8PoNG4YX0xx6/view",
       repo: "https://github.com/Emilykidd3/e-commerce-back-end"
     },
     {
       title: "Emloyee Tracker",
       image: "employee-tracker.png",
-      deployedLink: "https://github.com/Emilykidd3/employee-tracker",
+      deployedLink: "https://drive.google.com/file/d/1Ah_R_tTZ_fwrw-inFXHeM7Oe5dMHTcZ2/view",
       repo: "https://github.com/Emilykidd3/employee-tracker"
     }
   ]
