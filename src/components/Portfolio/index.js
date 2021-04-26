@@ -30,7 +30,7 @@ function Portfolio() {
     },
     {
       title: "eCommerce Backend",
-      image: "budget.png",
+      image: "ecommerce-backend.png",
       deployedLink: "https://github.com/Emilykidd3/e-commerce-back-end",
       repo: "https://github.com/Emilykidd3/e-commerce-back-end"
     },
