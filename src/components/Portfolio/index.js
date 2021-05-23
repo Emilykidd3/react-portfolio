@@ -5,6 +5,12 @@ import Project from '../Project'
 function Portfolio() {
   const projectItems = [
     {
+      title: "Kathryn Hansen",
+      image: "kathryn-hansen.png",
+      deployedLink: "https://kathryn-hansen.herokuapp.com/",
+      repo: "https://github.com/Emilykidd3/kathryn-hansen/"
+    },
+    {
       title: "Budget Tracker",
       image: "budget.png",
       deployedLink: "https://budget-tracker-123456.herokuapp.com/",
